@@ -1,0 +1,86 @@
+:root{
+    --color-gray:rgb(132, 132, 132);
+    --color-pink:rgb(210, 3, 183);
+}
+
+body {
+    background-color: rgb(224, 219, 219);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.continer1 {
+   display: flex;
+}
+
+.continer2 {
+
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+section>input {
+    padding: 10px 0px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid  var(--color-gray);
+    width: 90%;
+    cursor: pointer;
+}
+
+label {
+    color: rgb(34, 34, 34);
+
+}
+
+
+button {
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    height: 5%;
+    position: relative;
+    left: 5%;
+
+}
+
+.signup {
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(255, 196, 255), rgb(145, 0, 153));
+    color: white;
+
+}
+
+.signin {
+    background-color: transparent;
+    color:var(--color-gray);
+
+}
+
+.signin:hover {
+    border: 1px solid  var(--color-pink);
+    border-radius: 20px;
+}
+
+#chb {
+    width: 5%;
+    accent-color:var(--color-pink);
+}
+
